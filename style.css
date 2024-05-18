@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:whitesmoke;
+    width: auto;
+    height: 80px;
+    margin-bottom: 10px;
+}
+.navbar a{
+    color: black;
+    font-family: arial;
+    font-weight: 600;
+    text-decoration: none;
+}
+.navbar .logo i{
+    font-size: 24px;
+    margin-left: 20px;
+}
+.navbar div:hover{
+    background-color: #68D2E8;
+}
+.sidebar{
+    background-color: whitesmoke;
+    height: 700px;
+    width: 140px;
+    position: fixed;
+    left: 0;
+    top: 90px;
+    bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+.sidebar div{
+    margin-left: 15px;
+}
+.sidebar div{
+    margin-top: 50px;
+    border-top: 1px solid black;
+    
+}
+.sidebar a{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+.sidebar div:hover{
+    background-color: plum;
+}
+.main .card{
+    position: relative;
+    left: 30%;
+    overflow: hidden;
+}
